@@ -2,15 +2,15 @@
 
 ## Syfte
 
-Syftet med denna rapport är att ge en överblick över de vanliga stegen i arbetsflödet för att skapa en maskininlärningsapplikation. Rapporten fokuserar på scenariot att förutspå huspriser baserat på olika egenskaper, såsom antalet rum, geografiska läget och storleken på huset.
+Överblick över de vanliga stegen i arbetsflödet för att skapa en maskininlärningsapplikation. Rapporten fokuserar på scenariot att förutspå huspriser baserat på olika egenskaper, såsom antalet rum, geografiska läget och storleken på huset.
 
 ## Datainsamling
 
-Det första steget i ett maskininlärnings- eller djupinlärningsprojekt är, efter att ha fått en överblick över problemet, att samla in data. I detta scenario kan datan samlas in från olika källor, förslagsvis:
+Det första steget i ett maskininlärnings- eller djupinlärningsprojekt är att samla in data. I detta scenario kan datan samlas in från olika källor, förslagsvis:
 
 * Fastighetsmäklare
 * Lantmäteriet
-* Om det finns någon annan publik källa med relevant information man kan ladda ner från
+* Annan publik källa
 
 Datan kan lagras i olika format, såsom CSV, JSON eller i en SQL-databas. Det är viktigt att välja ett format som är lätt att arbeta med för de kommande stegen i arbetsflödet. Datan kan sparas lokalt eller i molnet, t.ex. erbjuder Amazon, Google och Microsoft molnlagringstjänster kopplade till maskininlärning.
 
@@ -49,7 +49,7 @@ Det finns tre olika övergripande tekniker för maskininlärning:
 * *Unsupervised learning* - en algoritm matas med oetiketterad data.
 * *Reinforcement learning* - belönar bra beteende och straffar dåligt. 
 
-Träningen inom maskininlärning sker med hjälp av algoritmer, där träningsdatan används för att lära en klassificerare att sätta datan i rätt fack eller förutspå ett värde, genom att justera ett antal parametrar för att passa datan i träningssettet.
+Träningen inom maskininlärning sker med hjälp av algoritmer, där träningsdatan används för att lära en klassificerare att sätta datan i rätt fack eller förutspå ett värde.
 
 I detta exempel använder vi linjär regression ( *supervised learning*).
 
